@@ -1,0 +1,8 @@
+root = true
+
+[Assets/TextMesh Pro/**.cs]
+generated_code = true
+dotnet_analyzer_diagnostic.severity = none
+
+[*.cs]
+dotnet_diagnostic.CS8524.severity = silent
